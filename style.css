@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: rgb(50, 50, 50);
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+.light {
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+
+.max {
+    background-image: url(src/MaxBackground.png);
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
