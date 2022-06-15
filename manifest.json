@@ -1,0 +1,10 @@
+{
+    "name": "SeboTime/De",
+    "short_name": "SeboTime/De",
+    "theme_color": "#000000",
+    "background_color": "#323232",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
