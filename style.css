@@ -11,13 +11,14 @@ body {
 
 .light {
     background-color: white;
-    font-family: Arial;
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
     color: black;
     text-align: center;
 }
 
 .max {
-    background-image: url(src/MaxBackground.png);
+    background-image: url(./src/MaxBackground.png);
     color: white;
     font-family: 'Teko', sans-serif;
     font-size: x-large;
