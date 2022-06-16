@@ -4,7 +4,7 @@
 * {
     font-family: 'Righteous', cursive;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
 
     transition: 0.25s;
 }
@@ -27,32 +27,25 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 200%;
-    padding: 2.5%;
-
-    animation-duration: 10s;
-    animation-name: SeboTime;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-a {
+.NavBar {
     background-color: rgb(75, 75, 75);
-    display: inline-block;
-    border-radius: 10px;
-    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10;
 }
 
-a:hover {
+button {
     background-color: rgb(100, 100, 100);
-    transform: scale(1.25);
+    border: 0px rgb(0, 0, 0);
+    padding: 10;
+    border-radius: 10px;
+    display: inline-block;
 }
 
-@keyframes SeboTime {
-    0% {transform: rotate(0deg)}
-    25% {transform: rotate(10deg)}
-    50% {transform: rotate(0deg)}
-    75% {transform: rotate(-10deg)}
-    100% {transform: rotate(0deg)}
+button:hover {
+    background-color: rgb(125, 125, 125);
+}
+
+button:active {
+    background-color: white;
 }

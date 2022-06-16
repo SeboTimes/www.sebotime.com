@@ -1,24 +1,25 @@
 var Question = false
 
-function FunInputLink() {
+function FunInputButton() {
     prompt("FUN INPUT!")
 }
 
-function FunLink() {
-    if (Clicked == true) {
+function FunButton() {
+    if (Question == true) {
         while (true) {
-            var PromtInput = prompt("DO YOU HAVE FUN? YES OR NO")
+            var PromtInput = prompt("DO YOU HAVE FUN? YES OR NO");
             if (PromtInput === "YES") {
-                alert("FUN!")
-                break
+                alert("FUN!");
+                break;
             } else if (PromtInput === "NO") {
-                alert("WHY?")
-                break
+                alert("WHY?");
+                break;
             } else {
-                alert("YES OR NO")
+                alert("YES OR NO");
             }
         }
     } else {
-        alert("FUN LINK!")
+        alert("FUN LINK!");
+        Question = true;
     }
 }
