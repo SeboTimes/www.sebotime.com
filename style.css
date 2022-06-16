@@ -40,7 +40,7 @@ h1 {
 a {
     background-color: rgb(75, 75, 75);
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 1%;
 }
 
@@ -51,8 +51,8 @@ a:hover {
 
 @keyframes SeboTime {
     0% {transform: rotate(0deg)}
-    25% {transform: rotate(25deg)}
+    25% {transform: rotate(10deg)}
     50% {transform: rotate(0deg)}
-    75% {transform: rotate(-25deg)}
+    75% {transform: rotate(-10deg)}
     100% {transform: rotate(0deg)}
 }
