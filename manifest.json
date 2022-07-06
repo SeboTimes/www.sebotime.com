@@ -1,6 +1,6 @@
 {
-    "name": "SeboTime/De",
-    "short_name": "SeboTime/De",
+    "name": "SeboTime",
+    "short_name": "SeboTime",
     "theme_color": "#000000",
     "background_color": "#323232",
     "display": "standalone",
