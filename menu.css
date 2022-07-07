@@ -1,7 +1,9 @@
 nav {
     background-color: #303030;
-    height: 80px;
+    height: 9%;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 img.logo {
@@ -12,10 +14,11 @@ img.logo {
 }
 
 label.title {
+    text-decoration: underline;
     color: white;
     font-size: 35px;
-    line-height: 80px;
-    padding: 0 25px;
+    line-height: 85px;
+    padding: 0 10px;
     font-weight: bold;
     float: left;
 }
@@ -35,11 +38,10 @@ nav ul li a {
     color: white;
     font-size: large;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: 0.5s;
 }
 
 nav ul li a:hover {
-    transform: scale();
     background-color: #505050;
 }
